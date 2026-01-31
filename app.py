@@ -3,10 +3,10 @@ import joblib
 
 
 # Load the trained Logistic Regression model
-loaded_model = joblib.load('/content/logistic_regression_model.joblib')
+loaded_model = joblib.load('logistic_regression_model.joblib')
 
 # Load the fitted TF-IDF vectorizer
-loaded_vectorizer = joblib.load('/content/tfidf_vectorizer.joblib')
+loaded_vectorizer = joblib.load('tfidf_vectorizer.joblib')
 
 print("Logistic Regression model and TF-IDF vectorizer loaded successfully.")
 # Initialize Flask app
